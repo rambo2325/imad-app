@@ -13,8 +13,8 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/goku-super-saiyan-god.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+app.get('/ui/goku-super-saiyan-god.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'goku-super-saiyan-god.jpg'));
 });
 
 
