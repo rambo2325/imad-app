@@ -20,17 +20,18 @@ var articleone={
                     i do whatever it takes cause i love how it feels when  i break the chains.
                 </p>
             </div>
-}
+};
 
 funtion createTemplate(data){
 var title=data.title;
 var content=data.content;
-var htmlTemplate=`
+var htmlTemplate =
+
     <html>
     <head>
-        <title>
-           ${title}
-        </title>
+    <title>
+    ${title}
+    </title>
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
     </head>
     <body>
@@ -44,7 +45,7 @@ var htmlTemplate=`
     </div>
     </body>
     </html>
- `;
+ ;
  return htmlTemplate
 }
 app.get('/', function (req, res) {
