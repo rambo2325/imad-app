@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var articleone={
      title:'article-one',
-     heading:'articleone',
+     
      content:` <div>
                 <p>
                     this is the article one this a text code from me to you .
