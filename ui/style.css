@@ -23,5 +23,7 @@ body {
     padding-top:100px;
     color:grey;
     font-family:sans-serif;
+    max-width:800px;
+    margin:0 auto;
     font-size:20px;
 }
