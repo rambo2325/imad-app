@@ -15,7 +15,7 @@ var app = express();
 app.use(morgan('combined'));
 
 app.get('/hash/:input',function(req,res){
-        var hashedString=hash(req.params.input,'this-is-some-random-string');
+        var hashedString=hash(req.params.input,'this-is-some-ranndom-string');
         res.send(hashedString);
 });
 function hash(input,salt){
